@@ -28,6 +28,3 @@ def test_get_routing(xml_mock, ncc_mock):
     routes = [rt for rt in r.routes.values()][0]
     assert len(routes) == expected_route_count
 
-
-if __name__ == "__main__":
-    main()
